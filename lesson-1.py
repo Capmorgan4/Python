@@ -1,1 +1,10 @@
-First assignment
+print('First assignment')
+number_of_patients = input('enter number of patients: ')
+print(number_of_patients)
+number_of_effected_teeth = input('enter number of carries teeth: ')
+print(number_of_effected_teeth)
+patients_with_complaints = input('enter number of patients with complaints: ')
+print(patients_with_complaints)
+
+typy_of_complaint = input('What complaints do you have? ')
+print(typy_of_complaint)
