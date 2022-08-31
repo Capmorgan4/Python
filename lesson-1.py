@@ -10,10 +10,23 @@
 # print(typy_of_complaint)
 
 
-print('Second assignment')
-time = int(input('Insert time in seconds: '))
-hours = time // 3600
-time_rest1 = time % 3600
-minutes = time_rest1 // 60
-seconds = time_rest1 % 60
-print(f'time in h:m:s formst: {hours}:{minutes}:{seconds}')
+# print('Second assignment')
+# time = int(input('Insert time in seconds: '))
+# hours = time // 3600
+# time_rest1 = time % 3600
+# minutes = time_rest1 // 60
+# seconds = time_rest1 % 60
+# print(f'time in h:m:s formst: {hours}:{minutes}:{seconds}')
+
+
+print('assignment 3')
+value = int(input('Insert n value: '))
+n = str(value)
+nn = n + n
+nnn = n + n + n
+comp = int(n) + int(nn) + int(nnn)
+print('Result:', comp)
+
+
+
+
