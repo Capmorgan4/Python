@@ -19,15 +19,26 @@
 # print(f'time in h:m:s formst: {hours}:{minutes}:{seconds}')
 
 
-print('assignment 3')
-value = int(input('Insert n value: '))
-n = str(value)
-nn = n + n
-print(int(nn))
-nnn = n + n + n
-print(int(nnn))
-comp = int(n) + int(nn) + int(nnn)
-print('Result:', comp)
+# print('assignment 3')
+# value = int(input('Insert n value: '))
+# n = str(value)
+# nn = n + n
+# print(int(nn))
+# nnn = n + n + n
+# print(int(nnn))
+# comp = int(n) + int(nn) + int(nnn)
+# print('Result:', comp)
+
+
+print('assignment 4')
+a = int(input('Insert a: '))
+m = 0
+while a > 0:
+    if a % 10 > m:
+        m = a % 10
+    a = a // 10
+print('Maximum number is:', m)
+
 
 
 
