@@ -23,7 +23,9 @@ print('assignment 3')
 value = int(input('Insert n value: '))
 n = str(value)
 nn = n + n
+print(int(nn))
 nnn = n + n + n
+print(int(nnn))
 comp = int(n) + int(nn) + int(nnn)
 print('Result:', comp)
 
