@@ -30,14 +30,29 @@
 # print('Result:', comp)
 
 
-print('assignment 4')
-a = int(input('Insert a: '))
-m = 0
-while a > 0:
-    if a % 10 > m:
-        m = a % 10
-    a = a // 10
-print('Maximum number is:', m)
+# print('assignment 4')
+# a = int(input('Insert a: '))
+# m = 0
+# while a > 0:
+#     if a % 10 > m:
+#         m = a % 10
+#     a = a // 10
+# print('Maximum number is:', m)
+
+
+print('Assignment 5')
+employees = int(input('How many people do work in your compony? '))
+earnings = int(input('What are your earnings per month (in $)? '))
+profit = int(input('What is your profit per month (in $)? '))
+expenses = int(input('What are your expenses per month (in $) ? '))
+profitability = profit / earnings
+prof_per_employee = profit / employees
+if earnings > expenses:
+    print('Congratulations! Your business is profitable')
+    print('Profitability:', profitability)
+    print('Profit per employee:', prof_per_employee)
+else:
+    print('You need to change your business strategy. Your business is unprofitable.')
 
 
 
