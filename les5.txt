@@ -1,0 +1,5 @@
+Country: Belarus
+City: Minsk
+Street: Lesch
+Building: 43
+Apartment: 34
